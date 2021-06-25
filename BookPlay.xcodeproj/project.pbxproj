@@ -11,6 +11,8 @@
 		0928CCE02685BADB005B91A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0928CCDF2685BADB005B91A6 /* ContentView.swift */; };
 		0928CCE22685BADC005B91A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0928CCE12685BADC005B91A6 /* Assets.xcassets */; };
 		0928CCE52685BADC005B91A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0928CCE42685BADC005B91A6 /* Preview Assets.xcassets */; };
+		0928CCEC2685BD13005B91A6 /* nlo-ne-grusti.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0928CCEB2685BD13005B91A6 /* nlo-ne-grusti.mp3 */; };
+		09C202362685E2F3001FDDFD /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09C202352685E2F3001FDDFD /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		0928CCDF2685BADB005B91A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0928CCE12685BADC005B91A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0928CCE42685BADC005B91A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0928CCEB2685BD13005B91A6 /* nlo-ne-grusti.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "nlo-ne-grusti.mp3"; sourceTree = "<group>"; };
+		09C202352685E2F3001FDDFD /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +57,9 @@
 			children = (
 				0928CCDD2685BADB005B91A6 /* BookPlayApp.swift */,
 				0928CCDF2685BADB005B91A6 /* ContentView.swift */,
+				09C202352685E2F3001FDDFD /* AudioPlayer.swift */,
 				0928CCE12685BADC005B91A6 /* Assets.xcassets */,
+				0928CCEB2685BD13005B91A6 /* nlo-ne-grusti.mp3 */,
 				0928CCE32685BADC005B91A6 /* Preview Content */,
 			);
 			path = BookPlay;
@@ -125,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0928CCEC2685BD13005B91A6 /* nlo-ne-grusti.mp3 in Resources */,
 				0928CCE52685BADC005B91A6 /* Preview Assets.xcassets in Resources */,
 				0928CCE22685BADC005B91A6 /* Assets.xcassets in Resources */,
 			);
@@ -139,6 +146,7 @@
 			files = (
 				0928CCE02685BADB005B91A6 /* ContentView.swift in Sources */,
 				0928CCDE2685BADB005B91A6 /* BookPlayApp.swift in Sources */,
+				09C202362685E2F3001FDDFD /* AudioPlayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,7 +204,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -251,7 +259,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
